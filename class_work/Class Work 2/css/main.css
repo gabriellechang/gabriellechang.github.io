@@ -1,0 +1,44 @@
+/* CSS Document */
+body{
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color:#CADFD5
+
+;
+}
+
+h1{
+	color: #EE9898;
+}
+
+p{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+p#one{
+	font-size: 24px;	
+}
+
+p#two{
+	font-weight: 800;
+	font-style: italic;	
+	line-height: 50%;
+	background-color: #FFFFFF;
+
+}
+
+p#three{
+	text-transform: capitalize;
+	text-decoration:line-through;
+
+}
+
+p#four{
+	line-height: 85%;
+	letter-spacing: 20px;
+}
+
+p#five{
+	word-spacing: 50px;
+	text-align: justify;
+	
+}

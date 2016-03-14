@@ -1,0 +1,51 @@
+/* CSS Document */
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #eeeeee;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:#000000;
+	text-align:center;
+}
+
+#modes{
+	background-color: #da9e9e;
+	height:320px;
+}
+#theory{
+	background-color: #c9d0c9;
+}
+#models{
+	background-color: #e6e0d5;
+}
+#psychology{
+	background-color: #cfb7b5;
+}
+p#RED{
+	color:#BE1E2D;
+}
+p#GREEN{
+	color:#2e8b19;
+}
+p#BLUE{
+	color:#2815f6;
+}
+p#YELLOW{
+	color:#f6ed15
+}
+p#ORANGE{
+	color:#f67b15
+}
+p#PURPLE{
+	color:#9150F9
+}
+p#REDORANGE{
+	color:#FF3F00;
+}
+p#BLACK{
+	color:#000000;
+}
+p#WHITE{
+	color:#FFFFFF;
+}
