@@ -1,10 +1,6 @@
 /*  GRID OF FIVE   ============================================================================= */
 
 .col {background-color:none;padding:1em 0; text-align:center;}
-
-div.colorblue {
-	background-color:#A0E4EE;
-}
 	
 .span_5_of_5 {
 	width: 100%;
