@@ -1,0 +1,27 @@
+/* CSS Document */
+#one {
+	margin-left:100px;
+	margin-right:100px;
+}
+
+#two {
+	padding:100px;
+}
+
+#three {
+	border:dashed;
+}
+
+#four {
+	width:49%;
+	float:left;
+	padding-right:1%;
+	margin:0px;
+}
+
+#five {
+	width:49%;
+	float:left;
+	padding-right:1%;
+	margin:0px;
+}
