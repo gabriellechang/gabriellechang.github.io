@@ -1,0 +1,60 @@
+/* CSS Document */
+#container {
+	position:relative;
+	width:80%;
+	margin:5% auto;
+}
+#one {
+	margin-left:100px;
+	margin-right:100px;
+	/* margin: 0 100px 0 100px*/ /*top right bottom left*/
+	/*margin 0 100px*/ /*top bottom right left*/
+}
+
+#two {
+	padding:100px;
+	background-color:#DD9DEF;
+}
+
+#three {
+	border:3px dashed #691A84;
+	margin:2%;
+	padding:2%;
+	width:50%;
+}
+
+#four {
+	width:49%;
+	float:left;
+	padding-right:1%;
+	margin:0px;
+}
+
+#five {
+	width:49%;
+	float:left;
+	padding-right:1%;
+	margin:0px;
+	box-sizing:border-box;
+}
+
+#six {
+	background-color:#7FBED2;
+	position:absolute;
+	width:400px;
+	height:400px;
+	bottom:0px;
+	right:100px;
+	z-index:11;
+	}
+
+#seven {
+	background-color:#4B8B73;
+	position:absolute;
+	width:200px;
+	height:500px;
+	bottom:0px;
+	right:50px;
+	z-index:10;
+	}
+	

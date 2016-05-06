@@ -1,16 +1,18 @@
-.container{
-	max-width:650px;
-	margin:0 auto;
-}
 
 img.center {
   display: block;
   margin:0 auto;
-}
+  max-width:100%;
+  }
 
 p.center{
 	text-align:center;
 	font-size:8pt;
+}
+
+.container{
+	width:650px;
+	margin:0 auto;
 }
 
 h1{
