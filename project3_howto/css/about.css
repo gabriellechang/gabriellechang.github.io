@@ -1,0 +1,28 @@
+/* CSS Document */
+body{
+	background:url(../images/EIFLS_EIMED60LT_317_L02.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+.leftbox{
+	background: rgba(255, 255, 255, 0.8);
+	padding:20px;
+	font-size:30pt;	
+	color:rgb(146, 172, 186);
+	
+}
+
+.rightbox{
+	background-color:#FFFFFF;
+	opacity: 0.8;
+	padding:20pt;
+	font-size:18pt;
+	line-height:150%;
+	
+}
+
+
+img{
+	max-width:100%;
+	
+}
+

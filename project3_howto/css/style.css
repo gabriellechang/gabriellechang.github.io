@@ -1,0 +1,89 @@
+/* CSS Document */
+#container {
+	max-width:100%;
+	max-height:100%;
+	margin:0 auto;
+	padding:0 auto;
+} 
+body  {
+	background:url(../images/EIFLS_EIMED60LT_317_L02.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#title {
+	position:absolute;
+	bottom: 35%;
+	left:33.3%;
+	width:33.3%;
+	text-align:center;
+	border:5px solid white;
+	padding: 2% 0%;
+	box-sizing:border-box;
+}
+
+h1 { 
+	font-family: 'Open Sans', sans-serif;
+	color:#FFFFFF;
+	font-size:36px;
+}
+
+#logo
+ {
+	padding:50px;
+	
+}
+
+.col {
+	box-sizing: border-box;
+	}
+
+#logo img {
+	max-width: 100%;
+	/*min-width: 100%;*/
+	}
+
+#nav{
+	margin-left:50px;
+	margin-right:50px;
+
+}
+
+#navrow1{
+	margin-top: 3.2%;
+}
+
+#navrow2{
+	/*margin-top:1.6%;	*/
+}
+
+#about.col, #howto.col, #tips.col, #essentials.col {
+	background-color:#FFFFFF;
+	opacity: 0.8;
+    filter: alpha(opacity=60);/* For IE8 and earlier */
+	}
+
+
+.col {
+	font-family: 'Open Sans', sans-serif;
+	padding:10px 0 10px 0;
+	text-align:center;
+	}
+
+a:link {
+	color:#404C49;
+	text-decoration:none;
+}
+
+a:visited{
+	color:#404C49;
+}
+
+a:hover {
+	color:#404C49;
+}
+
+a:active {
+	color:#404C49;
+}
+
+

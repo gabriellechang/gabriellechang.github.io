@@ -1,0 +1,16 @@
+/* CSS Document */
+
+#maintitle{
+	background: rgba(255, 255, 255, 0.8);
+	padding:50px;
+	font-size:30pt;	
+	color:rgb(146, 172, 186);
+}
+
+.leftboxfontsz{
+	font-size:16pt;
+}
+
+.number{
+	font-size:30pt;
+}

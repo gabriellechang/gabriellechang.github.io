@@ -1,0 +1,88 @@
+/* CSS Document */
+
+ul.dropdown {  
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	max-width:100%;
+    height: 25px;
+}
+
+ul.dropdown > li { 
+    float: left; 
+    position: relative;  
+}
+
+ul.dropdown ul {
+    background: rgba(146, 172, 186, 0.5); 
+    display: none; 
+    position: absolute;
+    left: 0; top: 100%;
+}
+
+ul.dropdown a { 
+    cursor: pointer; 
+    display: block; 
+    color: black; 
+    line-height: 25px; 
+    padding: 0 10px; 
+}
+
+ul.dropdown li { list-style: none; }
+
+ul.dropdown li:hover { background: white;  }
+ul.dropdown li:hover ul { display: block;  }
+
+@media all and (max-width: 480px) {
+    ul.dropdown {  height: auto; }
+    ul.dropdown > li {  float: none; width: 100%; }
+    ul.dropdown a { line-height: 40px; }
+    ul.dropdown ul { position: relative; }
+}
+
+/*.dropbtn {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    padding: 20px;
+	margin:0px 20px 0px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	max-width:100%;
+	
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(146, 172, 186, 0.5);
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: rgba(255, 255, 255, 0.8)}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #FFFFFF;
+}
+
+*/

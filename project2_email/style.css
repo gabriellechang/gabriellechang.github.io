@@ -1,5 +1,5 @@
 .container{
-	max-width:650px; /*had width:650px; before, max-width:650px; tells page not to go more than 650px*/
+	max-width:650px; /*had width:650px; before, http://www.w3schools.com/css/css_max-width.asp*/
 	margin:0 auto;
 }
 
