@@ -13,6 +13,17 @@
 <link rel="stylesheet" href="css/contactus.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 
+<!--JavaScript-->
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="matchHeights.js"></script>
+<script type="text/javascript" src="jquery.matchHeight-min.js"></script>
+
+<script type="text/javascript">
+jQuery(function($){
+    $('.matchheight').matchHeight();
+});
+</script>
+
 <meta charset="UTF-8">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
@@ -71,11 +82,11 @@
 
 
 <div class="section group">
-	<div  class="col span_1_of_2 leftbox">
+	<div  class="col span_1_of_2 leftbox matchheight">
 		Contact Us
 	</div>
     
-	<div class="col span_1_of_2 rightbox">
+	<div class="col span_1_of_2 rightbox matchheight">
 		<p id="contactus"> For any tips, questions, comments, concerns, or just a "hello," fill the form below and we will get back to you!</p>
    <div class="form"><br>
   <form action="action_page.php">

@@ -11,11 +11,16 @@
 <link rel="stylesheet" href="css/dropdown.css">
 <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">-->
 
+<!--JavaScript-->
 <script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="matchHeights.js"></script>
+<script type="text/javascript" src="jquery.matchHeight-min.js"></script>
 
-<script type="text/javascript" src="equalHeights.js"></script>
-
-
+<script type="text/javascript">
+jQuery(function($){
+    $('.matchheight').matchHeight();
+});
+</script>
 
 
 <meta charset="UTF-8">
@@ -74,11 +79,11 @@
 </div>
 <div class="section group">
 
-	<div  class="col span_1_of_2 leftbox">
+	<div  class="col span_1_of_2 leftbox matchheight">
     <p id="abouttitle ">About</p>
     </div>
     
-<div  class="col span_1_of_2 rightbox ">
+<div  class="col span_1_of_2 rightbox matchheight">
 	<p id="aboutext "> Laundry Care is a resource devoted to providing you the best laundry tips. We have gathered expert information from detergent companies, chemists, and people like you! Our guides are perfect for you if you are doing your laundry for the first time (without your parent's help!) or if you are wondering how to get that peanut butter stain off your silk blouse.</p>
     </div>
 </div>

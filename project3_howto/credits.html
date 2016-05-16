@@ -12,6 +12,17 @@
 <link rel="stylesheet" href="css/credits.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 
+<!--JavaScript-->
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="matchHeights.js"></script>
+<script type="text/javascript" src="jquery.matchHeight-min.js"></script>
+
+<script type="text/javascript">
+jQuery(function($){
+    $('.matchheight').matchHeight();
+});
+</script>
+
 <meta charset="UTF-8">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
@@ -69,12 +80,12 @@
     </div>
     <div class="section group">
 
-	<div class="col span_1_of_2 leftbox ">
+	<div class="col span_1_of_2 leftbox matchheight ">
 	<p id="abouttitle">Credits</p>
      </div>
 
     
-<div class="col span_1_of_2 rightbox ">
+<div class="col span_1_of_2 rightbox matchheight ">
 	<a href="http://tide.com/en-us/washing-machine-101/how-to-use-a-washing-machine/washer-care-tips">Tide.com</a><br>
     <a href="	http://laundry.about.com/od/laundrybasics/a/choosedetergent.htm">About.com</a><br>
     <a href="http://www.examiner.com/article/choosing-fabric-softeners">Examiner.com</a><br>
