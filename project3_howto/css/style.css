@@ -65,8 +65,10 @@ h1 {
 
 .col {
 	font-family: 'Open Sans', sans-serif;
-	padding:10px 0 10px 0;
-	text-align:center;
+	padding:10px;
+	text-align:left;
+	float:left;
+	
 	}
 
 a:link {
@@ -85,5 +87,4 @@ a:hover {
 a:active {
 	color:#404C49;
 }
-
 

@@ -4,6 +4,7 @@ body{
 	background-size: cover;
 }
 .leftbox{
+	float:left;
 	background: rgba(255, 255, 255, 0.8);
 	padding:20px;
 	font-size:30pt;	
@@ -15,14 +16,13 @@ body{
 	background-color:#FFFFFF;
 	opacity: 0.8;
 	padding:20pt;
-	font-size:18pt;
+	font-size:14pt;
 	line-height:150%;
 	
 }
 
-
 img{
 	max-width:100%;
-	
+	height:auto;
 }
 
